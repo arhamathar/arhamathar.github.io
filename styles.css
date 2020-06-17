@@ -1,0 +1,205 @@
+body {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.navbar {
+  margin: 0;
+  padding: 1.5rem 0 4rem 4rem;
+  font-size: 1.1rem;
+}
+
+.nav-scroll.scrolled {
+  background: rgba(0, 0, 0, .5);
+  /* box-shadow: 5px 5px 5px 5px	#707070; */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+/* .dropdown-menu{
+  text-align: center;
+  background:transparent !important;
+} */
+.welcome {
+  position: relative;
+  top: 50px;
+  font-weight: bold;
+}
+
+.typing {
+  position: relative;
+  top: 60px;
+}
+
+.image-firs{
+  height: 175px;
+  width: 175px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Balsamiq Sans', cursive;
+  line-height: 2.25;
+  color: #484848;
+}
+
+.progress {
+  height: 5px;
+}
+
+span {
+  float: right;
+  margin-right: 10px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #505050;
+  border-width: 4px;
+  width: 11%;
+}
+
+.h1s {
+  text-align: center;
+}
+
+#title {
+  background-image: url(images/your-name.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bold;
+  padding: 0 5%;
+}
+
+#about {
+  padding: 5% 5% 5% 7%;
+  background-color: #F8F8F8;
+}
+
+#skills {
+  padding: 5%;
+  background-color: 	#E8E8E8;
+}
+
+#gallery {
+  padding: 5%;
+  text-align: center;
+  background-color: #F8F8F8;
+}
+
+.gallery-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.image-area{
+  margin: 10px;
+}
+
+.img-style{
+  filter: grayscale(50%);
+  transition: 0.3s;
+}
+
+.img-style:hover{
+  filter: grayscale(0);
+  cursor: zoom-in;
+  transform: scale(1.1);
+}
+
+#contacts {
+  padding: 5%;
+  text-align: center;
+  background-color: 	#E8E8E8;
+}
+
+.card {
+  margin: 40px 30px;
+  box-shadow: 5px 10px 10px 5px #C8C8C8;
+}
+
+.social-icon {
+  padding: 15px;
+  padding-bottom: 15px;
+  color: #000;
+}
+
+.social-icon:hover{
+  color: #000;
+}
+
+#footer {
+  background-color: #000;
+  padding: 2.5%;
+  text-align: center;
+  color: #fff;
+}
+
+#get-in-touch {
+  padding: 5%;
+}
+
+.contact-form {
+  background-color: #E8E8E8;
+  margin: auto 10%;
+  padding: 2.5% 5%;
+  box-shadow: 5px 10px 10px 5px #D8D8D8;
+}
+
+.h2s {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 12px;
+  padding: 2% 3%;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #D8D8D8;
+  color: #000;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px 3px #707070;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.profile-img{
+  border: 2px solid #B8B8B8;
+}
+
+.info{
+  line-height: 1.75rem;
+}
