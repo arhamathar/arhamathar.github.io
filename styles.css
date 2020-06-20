@@ -204,3 +204,9 @@ html {
 .info{
   line-height: 1.75rem;
 }
+
+span {
+  float: right;
+  margin-right: 0px;
+}
+
